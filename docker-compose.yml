@@ -13,8 +13,6 @@ services:
       LDAP_DOMAIN: "example.org"
       LDAP_ADMIN_PASSWORD: "admin"
       LDAP_TLS: "false"             # deactivate TLS for the LDAP server
-    volumes:
-      - ./var/lib/ldap/:/var/lib/ldap/
     networks:
       - ldap_network
     ports:
