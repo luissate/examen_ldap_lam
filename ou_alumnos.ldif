@@ -1,0 +1,5 @@
+
+
+dn: ou=alumnos,dc=saurina,dc=org
+objectClass: organizationalUnit
+ou: alumnos
